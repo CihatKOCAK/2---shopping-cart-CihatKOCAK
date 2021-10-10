@@ -1,33 +1,68 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5930430&assignment_repo_type=AssignmentRepo)
-# Shopping Cart 
-Alışveriş sitesi uygulaması oluşturmanız gerekiyor. Buradan örnek uygulamanın tasarımına ulaşabilirsiniz.
-https://www.figma.com/file/9hO1ApoWscZXLEqrCkFEGI/2-week-assignment
-Hazır data için db.json dosyasını kullanabilirsiniz. Bu dosyayı json-server ile ayağa kaldırıp API gibi kullanabilirsiniz.
+<br/>
+<p align="center">
+  <a href="https://github.com/iksipias/E-Commerce">
+  </a>
 
-## Sayfalar
-1. Ana sayfa
-    * Burada site ile ilgili gelen bir bilgi ve görsel yer alacaktır. Top Navbar dahildir.
-2. Shop page
-    * Üstteki Shop linkine tıklandığında açılacak sayfadır. Ürünler burada listelenecektir. 
-    * soldaki checkbox menüsünden category bazında filtreleme yapılacaktır.
-    * Sağdaki sort by dropdown'ında sıralama işlemi gerçekleştirilebilecektir.
-        * popülerite (azalan), 
-        * fiyat (artan)
-        * fiyat (azalan)
-3. Product page
-    * Ürün detay bilgileri yer alacaktır.
-    * Quantity alanı ile birlikte Add to Cart butonundaki değer hesaplanacaktır. Örn 2 item alacaksa fiyat x 2 şeklinde olacaktır.
-    * Add to cart butonuna basıldığında eğer kullanıcı login değilse login olma ekranına yönlendirilecektir. 
-    * Eğer kullanıcı loginse alışveriş sepetine eklenecektir ve üstteki alışveriş sepeti ikonundaki değer 1 arttırılacaktır.
-4. Login page
-    * Kullanıcının login işlemi gerçekleştirilecektir. 
-    * User listesi için db.json içerisindeki /users endpoint'i kullanılabilir.
-    * Eğer username ve password bilgisi uyuşuyorsa client side'da bir token oluşturulup localStorage'a yazılacaktır
-    * Login olunduktan sonra, önceki sayfa hangisi ise ona yönlendirilecektir. Örneğin product sayfasından geldi diyelim, aynı ürünün sayfasına redirect edilecektir.
-5. Cart page
-    * Alışveriş sepei bilgileri yer alacaktır.
-    * Alınan tüm ürünlerin fiyatı hesaplanıp görüntülenecektir.
-    * Eklenen ürün Remove butonu ile sepetten çıkarılabilecektir.
+  <h3 align="center">Simple E-Commerce Theme</h3>
 
-## Notlar
-* Proje içerisinde react-router-dom ve ant design eklenmiştir. Bu kütüphaneleri direkt olarak kullanabilirsiniz.
+  <p align="center">
+    with payment option
+    <br/>
+    <br/>
+  </p>
+</p>
+
+![License](https://img.shields.io/github/license/iksipias/E-Commerce) 
+
+## About The Project
+
+I used <a href ="dashboard.chec.io"> dashboard.chec.io</a> for products, category, users and payment method,
+also I used <a href ="https://stripe.com/"> stripe</a> for payment gateway.
+
+
+
+
+*Beautiful simple and useful e-commerce site theme, I will show pages and functions with pictures
+
+
+## Index Page
+![Screen Shot](https://github.com/CihatKOCAK/shopping-cart/blob/main/README/index.PNG)
+## Shipping Cart Page
+![Screen Shot](README/shippingCart.PNG)
+## Checkout Page
+![Screen Shot](README/checkout-s1.PNG)
+<br/>
+![Screen Shot](README/checkout-s2.PNG)<br/>
+![Screen Shot](README/test-cart-number.PNG)
+
+<p>also for detailed information: <a href ="https://stripe.com/docs/testing"> Stripe Testing</a> </p><br/>
+
+![Screen Shot](README/checkout-s3.PNG)<br/>
+
+![Screen Shot](README/checkout-s4.PNG)
+
+## Costumer Mail
+
+e-mail sent to the customer after the payment process is completed
+
+![Screen Shot](README/mailCostumer.PNG)
+
+## Admin Mail
+
+e-mail sent to the administrator after the payment process is completed
+
+![Screen Shot](README/adminMail.PNG)
+
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/iksipias/E-Commerce/blob/main/LICENSE.md) for more information.
+
+## Author
+
+* **Cihat KOÇAK** - [Cihat KOÇAK](https://github.com/CihatKOCAK)
+
+## Acknowledgements
+
+* [Adrian Hajdin](https://github.com/adrianhajdin)
+

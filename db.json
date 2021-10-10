@@ -462,5 +462,14 @@
                 "count": 145
             }
         }
+    ],
+    "shopcart":[{
+        "userID":null,
+        "lineitems":[],
+        "subtotal":null,
+        "total_items":0
+
+    }
+        
     ]
 }
